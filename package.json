@@ -1,0 +1,35 @@
+{
+  "name": "@exhuma/galeshapley",
+  "version": "1.0.0",
+  "description": "Generic implementation of the Gale-Shapley matching algorithm",
+  "main": "dist/galeshapley.js",
+  "types": "dist/galeshapley.d.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exhuma/galeshapley-js.git"
+  },
+  "keywords": [
+    "algorithms",
+    "matching"
+  ],
+  "author": "Michel Albert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exhuma/galeshapley-js/issues"
+  },
+  "homepage": "https://github.com/exhuma/galeshapley-js#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "typescript": "^4.6.4"
+  }
+}
